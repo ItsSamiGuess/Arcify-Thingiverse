@@ -1,36 +1,44 @@
 .PageHeader__header--blNLy {
     background-color: var(--arc-palette-minContrastColor) !important;
 }
+
 .SearchInput__searchContainer--gBKIr {
     background: var(--arc-palette-hover) !important;
 }
+
 .SearchInput__searchContainer--gBKIr .SearchInput__searchInput--HPa9Q {
     background: transparent !important;
 }
+
 body{
-  /* background-color: var(--arc-palette-maxContrastColor) !important; */  
-  /* background-image: gradient(red, blue) !important; */
   background-image: linear-gradient(180deg,var(--arc-palette-title),var(--arc-palette-hover)) !important;
   color: var(--arc-palette-background) !important;
 }
+
 .Layout__layout--nJKLS:not(.Layout__newStyle--JsCPG) a:link, .Layout__layout--nJKLS:not(.Layout__newStyle--JsCPG) a:visited {
     color: var(--arc-palette-foregroundTertiary) !important;
-} 
+}
+
 .Button__button--xv8c4.Button__primary--grPsm {
     background-color: var(--arc-palette-minContrastColor) !important;
 }
+
 .CreateIcon__icon--k2llF.CreateIcon__twitterWhite--QxWww {
     background-image: none !important;
 }
+
 .CreateIcon__icon--k2llF.CreateIcon__whatsAppWhite--fbGxp {
     background-image: none !important;
 }
+
 .CreateIcon__icon--k2llF.CreateIcon__facebookWhite--qEzd0 {
     background-image: none !important;
 }
+
 .Pagination__button--Nz_si {    
     background-color: var(--arc-palette-minContrastColor) !important;
 }
+
 a.Pagination__active--zlwFL {
     color: white !important;
 }
