@@ -1,44 +1,54 @@
+/* Syncs Thimgiverse's theme with Arc's custom colors*/
+
+/* Main Top Header Bar */
 .PageHeader__header--blNLy {
     background-color: var(--arc-palette-minContrastColor) !important;
 }
-
+/* Search Bar */
 .SearchInput__searchContainer--gBKIr {
     background: var(--arc-palette-hover) !important;
 }
-
 .SearchInput__searchContainer--gBKIr .SearchInput__searchInput--HPa9Q {
     background: transparent !important;
 }
-
+/* General Background */
 body{
   background-image: linear-gradient(180deg,var(--arc-palette-title),var(--arc-palette-hover)) !important;
   color: var(--arc-palette-background) !important;
 }
-
 .Layout__layout--nJKLS:not(.Layout__newStyle--JsCPG) a:link, .Layout__layout--nJKLS:not(.Layout__newStyle--JsCPG) a:visited {
     color: var(--arc-palette-foregroundTertiary) !important;
 }
-
+/* Buttons, Global */
 .Button__button--xv8c4.Button__primary--grPsm {
     background-color: var(--arc-palette-minContrastColor) !important;
 }
-
-.CreateIcon__icon--k2llF.CreateIcon__twitterWhite--QxWww {
-    background-image: none !important;
-}
-
-.CreateIcon__icon--k2llF.CreateIcon__whatsAppWhite--fbGxp {
-    background-image: none !important;
-}
-
-.CreateIcon__icon--k2llF.CreateIcon__facebookWhite--qEzd0 {
-    background-image: none !important;
-}
-
 .Pagination__button--Nz_si {    
     background-color: var(--arc-palette-minContrastColor) !important;
 }
-
+/* Navigation Button Colors */
 a.Pagination__active--zlwFL {
-    color: white !important;
+    color: var(--arc-palette-cutoutColor) !important;
+}
+.UserCardBody__followButton--rnWQu {
+    border: 2px solid !important;
+    color: var(--arc-palette-minContrastColor) !important;
+}
+/* Follow Button */
+.UserCardBody__followingButton--ylsC7 {
+    border-radius: 3px;
+    color: var(--arc-palette-hover) !important;
+}
+/* Activity Layout */
+.Tabs__tab--aC64Y.um-button.Tabs__isActive--wtPTB {
+    border-color: var(--arc-palette-minContrastColor) !important;
+    color:var(--arc-palette-minContrastColor) !important;
+}
+/* Personal Dashboard Colors */
+.DashboardActivity__personalDashboardActivity--ICeNc {
+    border-top: 3px solid var(--arc-palette-hover) !important;
+}
+/* Groups Label Header Image */
+.GroupList__header--nSiga {
+    background: no-repeat 50% 50% var(--arc-palette-minContrastColor) !important;
 }
