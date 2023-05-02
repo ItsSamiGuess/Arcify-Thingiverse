@@ -1,8 +1,8 @@
 # Arcify-Thingiverse
 
 FAQ: 
-  Q. How do I install this extension?
-  
+Installation:
+
   In Arc Browser, navigate to the bottom left of the screen. (Look for a '+' symbol)
   Hit "New Boost"
   Select "Style"
